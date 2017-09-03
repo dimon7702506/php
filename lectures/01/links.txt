@@ -1,0 +1,6 @@
+﻿https://githowto.com/ru/setup - Ссылка на русскоязычные уроки по git
+
+https://www.jetbrains.com/phpstorm/ - Ссылка на Php Storm
+
+http://www.w3schools.com/php/default.asp - Уроки по PHP
+https://www.youtube.com/watch?v=4jbkHDZQCqY&list=PLypd1VrGv7FMBt_CCURNZQtkuR_InqjFP - видео уроки PHP
