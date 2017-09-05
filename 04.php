@@ -69,6 +69,60 @@
         require_once "04_request_massage.php";
     ?>
 
+    <br>
+    <h3 class = "container">Задание 5:</h3>
+
+    <?php
+    if (!$_POST['submit5']){?>
+        <form method="post">
+            <div class = "container">
+                <div class="form-group">
+                    <label for="city">Введите возраст</label>
+                    <input required type="number" class="form-control" name="age5" value="<?=isset($_POST['age5']) ? $_POST['age'] : ''?>">
+                </div>
+                <button type="submit" class="btn btn-primary" name="submit5" value="Submit">Submit</button>
+            </div>
+        </form>
+        <?php
+    }
+    require_once "04_request_age.php";
+    ?>
+
+    <br>
+    <h3 class = "container">Задание 6:</h3>
+    <form method="post">
+        <div class = "container">
+            <div class="form-group">
+                <label for="Login">login</label>
+                <input required type="text" class="form-control" name="login" placeholder="login" value="<?=isset($_POST['login']) ? $_POST['login'] : ''?>">
+            </div>
+            <div class="form-group">
+                <label for="password">password</label>
+                <input required type="password" class="form-control" name="password" placeholder="password" value="<?=isset($_POST['password']) ? $_POST['password'] : ''?>">
+            </div>
+
+            <button type="submit" class="btn btn-primary" name="submitLogin" value="Submit">Login</button>
+        </div>
+    </form>
+    <?php
+        require_once "04_request_login.php";
+    ?>
+
+    <br>
+    <h3 class = "container">Задание 7:</h3>
+
+    <form method="post">
+        <div class = "container">
+            <div class="form-group">
+                <label for="city">Введите часть названия города</label>
+                <input required type="text" class="form-control" name="word" value="<?=isset($_POST['word']) ? $_POST['word'] : ''?>">
+            </div>
+            <button type="submit" class="btn btn-primary" name="findCity" value="Submit">Найти город</button>
+        </div>
+    </form>
+    <?php
+        require_once "04_request_find_city.php";
+    ?>
 
 </body>
 </html>
