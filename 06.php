@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 <body>
 
@@ -53,10 +53,9 @@ var_dump(numberToBoolean($number));
     </div>
 </form>
 <?php
-    define(FILE_NAME, "06_homework.csv");
+    define("FILE_NAME", "06_homework.csv");
 
     require_once "06_request.php";
     require_once "06_read.php";
 ?>
-
 </body>
