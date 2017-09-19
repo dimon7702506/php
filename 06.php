@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+
 </head>
 <body>
 
@@ -34,17 +35,17 @@ var_dump(numberToBoolean($number));
     <div class="container">
         <div class="form-group">
             <label>Имя</label>
-            <input type="text" class="form-control" name="firstName" placeholder="Введите имя"
+            <input class="form-control" name="firstName" placeholder="Введите имя"
                    value="<?=isset($_POST['firstName'])? $_POST['firstName'] : ''?>">
         </div>
         <div class="form-group">
             <label>Фамилия</label>
-            <input type="text" class = "form-control" name="lastName" placeholder="Введите фамилию"
+            <input class = "form-control" name="lastName" placeholder="Введите фамилию"
                    value="<?=isset($_POST['lastName']) ? $_POST['lastName']: '' ?>">
         </div>
         <div class="form-group">
             <label>Должность</label>
-            <input type="text" class="form-control" name="position" placeholder="Введите должность"
+            <input class="form-control" name="position" placeholder="Введите должность"
                    value="<?=isset($_POST['position']) ? $_POST['position'] : ''?>">
         </div>
         <button type="submit" class="btn btn-primary" name="submit" value="Submit">Отправить</button>

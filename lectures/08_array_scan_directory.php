@@ -34,4 +34,7 @@ function scan_directory_recursive($path, $nesting_level = 0): array
 }
 
 $files_list = scan_directory_recursive('D:\OSPanel\domains\source');
-print_r($files_list);
+
+$files_list_serialized = serialize($files_list);
+
+print_r($files_list_serialized);

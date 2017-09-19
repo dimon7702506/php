@@ -12,7 +12,8 @@ $list = [
     ],
 ];
 
-$file = fopen('file.csv', 'w+');
+$file = fopen('file.csv', 'w+'); // w+ перезаписать файл
+                                                // a+ добавить файл
 
 //получение заголовков массива
 $head_arr = [];
@@ -35,3 +36,5 @@ while ($row = fgetcsv($file)){
     var_dump($row);
 }
 fclose($file);
+
+//посмотреть flock
