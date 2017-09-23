@@ -35,6 +35,7 @@ function scan_directory_recursive($path, $nesting_level = 0): array
             $item ['children'] = scan_directory_recursive($file_path, $nesting_level + 1);
         }else {
             $item ['type'] = 'f';
+            $item ['children'] = [];
         }
         $result[] = $item;
     }

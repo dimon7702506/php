@@ -24,7 +24,7 @@ function print_files_list(array $f_lists)
                 $str = $str . "$spaces" . $val;
             }elseif ($key == 'path'){
                 echo "<pre>" . $str . " (" . $val . ")" . "</pre></div>";
-             }elseif ($key = 'children') {
+            }elseif ($key = 'children') {
                 print_files_list($val);
             }
         }
@@ -33,7 +33,6 @@ function print_files_list(array $f_lists)
 
 $files_list_serialized = file_get_contents('08.ser');
 $files_list = unserialize($files_list_serialized);
-
 
 echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">";
 echo "<html>";
