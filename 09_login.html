@@ -21,6 +21,9 @@
         <?php if (isset($errors['password'])): ?>
         <p class="error"><?= $errors['password'] ?></p>
         <?php endif; ?>
+        <?php if (isset($errors['bad_login'])): ?>
+        <p class="error"><?= $errors['bad_login'] ?></p>
+        <?php endif; ?>
     </div>
     <br>
     <div class="form-row">

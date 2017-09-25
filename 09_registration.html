@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .error {
+            color:red;
+        }
+    </style>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+<form action="09_registration.php" method="post">
+    <div class="form-row">
+        <input type="text" placeholder="Enter your login" name="reg_login" value="<?=isset($_POST['reg_login']) ? $_POST['reg_login'] : ''?>">
+        <?php if (isset($reg_errors['reg_login'])): ?>
+        <p class="error"><?= $reg_errors['reg_login'] ?></p>
+        <?php endif; ?>
+    </div>
+    <br>
+    <div class="form-row">
+        <input type="password" placeholder="Enter your password" name="reg_password1" value="">
+        <?php if (isset($reg_errors['reg_password1'])): ?>
+        <p class="error"><?= $reg_errors['reg_password1'] ?></p>
+        <?php endif; ?>
+    </div>
+    <br>
+    <div class="form-row">
+        <input type="password" placeholder="Repeat password" name="reg_password2" value="">
+        <?php if (isset($reg_errors['reg_password2'])): ?>
+        <p class="error"><?= $reg_errors['reg_password2'] ?></p>
+        <?php endif; ?>
+    </div>
+    <br>
+    <div class="g-recaptcha" data-sitekey="6LdwBDIUAAAAAJXqEITwS7wsyj_FUGHp2YByVxAQ"></div>
+    <br>
+    <div class="form-row">
+        <input type="submit" name="registration" value="Registration">
+    </div>
+</form>
+</body>
+</html>
