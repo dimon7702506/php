@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39375b98-4dec-42f2-b846-9c196d76afc1" name="Default" comment="lecture 08">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_good_registration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_registration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_registration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lectures/10_validate_date.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_function.php" afterPath="$PROJECT_DIR$/09_function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_index.php" afterPath="$PROJECT_DIR$/09_index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_login.html" afterPath="$PROJECT_DIR$/09_login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_profile.html" afterPath="$PROJECT_DIR$/09_profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_accounts.csv" afterPath="$PROJECT_DIR$/09_accounts.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lectures.html" afterPath="$PROJECT_DIR$/lectures.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lectures/atHome.txt" afterPath="$PROJECT_DIR$/lectures/atHome.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,71 +20,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="09_index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_index.php">
+      <file leaf-file-name="lectures.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lectures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="323">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="09_login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="09_registration.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/09_registration.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="09_good_registration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_good_registration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="09_profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="09_registration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_registration.html">
+      <file leaf-file-name="10_validate_date.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lectures/10_validate_date.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="09_function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_function.php">
+      <file leaf-file-name="atHome.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lectures/atHome.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="61" column="130" lean-forward="false" selection-start-line="61" selection-start-column="130" selection-end-line="61" selection-end-column="130" />
+            <state relative-caret-position="68">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -144,8 +101,6 @@
         <option value="$PROJECT_DIR$/08_array_from_file.php" />
         <option value="$PROJECT_DIR$/08_array_from_file_whith_recursion.php" />
         <option value="$PROJECT_DIR$/08_array_scan_and_write_to_file.php" />
-        <option value="$PROJECT_DIR$/lectures.html" />
-        <option value="$PROJECT_DIR$/lectures/atHome.txt" />
         <option value="$PROJECT_DIR$/lectures/09_login.html" />
         <option value="$PROJECT_DIR$/lectures/09_is_logged.php" />
         <option value="$PROJECT_DIR$/lectures/09_function.php" />
@@ -160,6 +115,13 @@
         <option value="$PROJECT_DIR$/09_good_registration.html" />
         <option value="$PROJECT_DIR$/09_index.php" />
         <option value="$PROJECT_DIR$/09_registration.php" />
+        <option value="$PROJECT_DIR$/lectures/atHome.txt" />
+        <option value="$PROJECT_DIR$/lectures/validate_email.php" />
+        <option value="$PROJECT_DIR$/lectures/10_validate_email.php" />
+        <option value="$PROJECT_DIR$/lectures/10_lowels.php" />
+        <option value="$PROJECT_DIR$/lectures/10_vowels.php" />
+        <option value="$PROJECT_DIR$/lectures.html" />
+        <option value="$PROJECT_DIR$/lectures/10_validate_date.php" />
       </list>
     </option>
   </component>
@@ -201,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -284,6 +246,7 @@
       <workItem from="1506341459421" duration="1421000" />
       <workItem from="1506332951470" duration="13701000" />
       <workItem from="1506365379075" duration="8043000" />
+      <workItem from="1506441643939" duration="6462000" />
     </task>
     <task id="LOCAL-00001" summary="lecture 07">
       <created>1505539778456</created>
@@ -331,7 +294,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108173000" />
+    <option name="totallyTimeSpent" value="114635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,7 +308,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20045386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20347957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -412,17 +375,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.php" />
-    <entry file="file://$PROJECT_DIR$/04_request.php" />
-    <entry file="file://$PROJECT_DIR$/lectures/04/request.php" />
     <entry file="file://$PROJECT_DIR$/04_request_massage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -573,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lectures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lectures/09_is_logged.php" />
     <entry file="file://$PROJECT_DIR$/lectures/09_login.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -601,13 +546,6 @@
         <state relative-caret-position="401">
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/atHome.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -651,18 +589,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_accounts.csv">
+    <entry file="file://$PROJECT_DIR$/09_good_registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_registration.html">
+    <entry file="file://$PROJECT_DIR$/09_login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -675,42 +629,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/09_registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/09_function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="61" column="130" lean-forward="false" selection-start-line="61" selection-start-column="130" selection-end-line="61" selection-end-column="130" />
+        <state relative-caret-position="606">
+          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_good_registration.html">
+    <entry file="file://$PROJECT_DIR$/09_accounts.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_login.html">
+    <entry file="file://$PROJECT_DIR$/lectures/atHome.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_index.php">
+    <entry file="file://$PROJECT_DIR$/lectures/validate_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_registration.php">
+    <entry file="file://$PROJECT_DIR$/lectures/10_lowels.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/10_validate_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/10_vowels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/10_validate_date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>
