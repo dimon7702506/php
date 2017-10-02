@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4</title>
+    <style type="text/css">
+        .container {
+            height: 50px;
+        }
+        .inp1 {
+            border-radius: 7px;
+            font-size: 16px;
+            height: 25px;
+        }
+        .inp2 {
+            border-radius: 7px;
+            font-size: 16px;
+            height: 25px;
+            width: 500px;
+        }
+        .button {
+            border-radius: 7px;
+            font-size: 16px;
+            height: 25px;
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+<form action="11_task4.php" method="post">
+    <div class="container">
+        <input class="inp1" type="number" required placeholder="Введите длину строки" name="length"
+               value="<?=isset($_POST['length']) ? $_POST['length'] : ''?>">
+    </div>
+    <div class="container">
+        <input class="inp2" type="text" required placeholder="Введите набор символов через пробел" name="symbols"
+               value="<?=isset($_POST['symbols']) ? $_POST['symbols'] : ''?>">
+    </div>
+    <div class="container">
+        <input class="button" type="submit" name="submit" value="Make">
+    </div>
+</form>
+</body>
+</html>
