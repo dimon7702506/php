@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Блочная модель</title>
+    <style type="text/css">
+        .container {}
+        .left {
+            background-color: red;
+            width: 20%;
+            height: 100px;
+            float: left;
+        }
+        .right {
+            /*overflow-y: auto;*/
+            /*overflow: hidden;*/
+            /*height: 100px;*/
+            float: right;
+            width: 80%;
+        }
+        .clear {
+            clear: both;
+        }
+        .clearfix:after {
+            display: block;
+            content: ' ';
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left"></div>
+    <div class="right">
+        <p>БлочнаямодельБллочнаямодмодельБлочнаямодель БлочнаямодельБллочнаямодмодельБлочнаямодель БлочнаямодельБллочнаямодмодельБлочнаямодель БлочнаямодельБллочнаямодмодельБлочнаямодель  БлочнаямодельБлочнаямодельБлочнаямодель БлочнаямодельБлочнаялочная модельБлочная модель</p>
+        <p>БлочнаямодельБллочнаямодмодельБлочнаямодель БлочнаямодельБллочнаямодмодельБлочнаямодель БлочнаямодельБллочнаямодмодельБлочнаямодель БлочнаямодельБллочнаямодмодельБлочнаямодель  БлочнаямодельБлочнаямодельБлочнаямодель БлочнаямодельБлочнаялочная модельБлочная модель</p>
+    </div>
+    <!--<div class="clear"></div>-->
+<!--    <div class="content">
+        <h1>Блочная модель</h1>
+    </div>-->
+    </div>
+    <div class="content">
+        <h1>Блочная модель</h1>
+    </div>
+</body>
+</html>

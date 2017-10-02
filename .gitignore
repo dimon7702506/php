@@ -1,7 +1,1 @@
-*.iml
-/target/
-*.class
-.idea/
-src/**/.DS_Store
-.DS_Store/
-
+.idea/*.*
