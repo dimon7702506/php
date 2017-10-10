@@ -40,12 +40,16 @@
                 type: 'post',
                 data: form_data,
                 success: function (response) {
+                    var chat = $('#Chat');
+                    chat.html(response.param_time);
+                    },
+                error: function () {
+                    alert('Error !!!');
+                    console.log(response.param_time);
+                },
+                complete: function () {
                     var mas = document.getElementById('Message');
                     mas.value = '';
-
-                },
-                error: function (response) {
-                    alert('Error!!!');
                 }
             });
         });
