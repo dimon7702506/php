@@ -50,6 +50,8 @@ if ($_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest') {
     ];
 
     $messages = [];
+    $temp_param_microtime = 0;
+
     foreach ($arrays as $array) {
         if ($temp_param_microtime == 0) {
             $temp_param_microtime = $array[0];
@@ -66,6 +68,5 @@ if ($_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest') {
 
     header('Content-Type: application/json');
     echo json_encode($response);
-
-
+    //print_r($messages[5]['user']);
 }
