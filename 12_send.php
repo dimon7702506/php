@@ -26,21 +26,19 @@ function read_messages($param_microtime):array
     fclose($file);
 
     $mes = array_reverse($mes);
+    $mes = array_slice($mes, 0, 50);
 
-    if($param_microtime){
-        echo "no";
-    }else{
-        $mes = array_slice($mes, 0, 50);
-    }
-    //var_dump($mes);
     return $mes;
 }
 
 if ($_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest') {
-    $user = $_POST['UserName'] ?? '';
-    $msg = $_POST['Message'] ?? '';
     $param_microtime = $_POST['param_microtime'] ?? '';
-    write_to_file($user, $msg);
+    if (isset($_POST['UserName']) && isset($_POST['Message']) && ($_POST['Message'] <> '')) {
+        $user = $_POST['UserName'] ?? '';
+        $msg = $_POST['Message'] ?? '';
+
+        write_to_file($user, $msg);
+    }
     $arrays = read_messages($param_microtime);
 
     $response = [

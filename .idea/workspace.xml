@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12_chat.csv" afterPath="$PROJECT_DIR$/12_chat.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12_chat.html" afterPath="$PROJECT_DIR$/12_chat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12_send.php" afterPath="$PROJECT_DIR$/12_send.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lectures.html" afterPath="$PROJECT_DIR$/lectures.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +22,11 @@
       <file leaf-file-name="12_chat.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/12_chat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+            <state relative-caret-position="491">
+              <caret line="71" column="112" lean-forward="false" selection-start-line="71" selection-start-column="112" selection-end-line="71" selection-end-column="112" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -36,7 +36,7 @@
       <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lectures/12/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="1054">
               <caret line="62" column="41" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="41" />
               <folding />
             </state>
@@ -46,8 +46,8 @@
       <file leaf-file-name="12_chat.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12_chat.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="114" column="31" lean-forward="false" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,28 @@
       <file leaf-file-name="12_send.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12_send.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08_array_scan_directory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lectures/08/08_array_scan_directory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08_recursion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lectures/08/08_recursion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -145,8 +165,8 @@
         <option value="$PROJECT_DIR$/12.html" />
         <option value="$PROJECT_DIR$/lectures/12/form.html" />
         <option value="$PROJECT_DIR$/lectures.html" />
-        <option value="$PROJECT_DIR$/12_chat.csv" />
         <option value="$PROJECT_DIR$/12_send.php" />
+        <option value="$PROJECT_DIR$/12_chat.csv" />
         <option value="$PROJECT_DIR$/12_chat.html" />
       </list>
     </option>
@@ -206,6 +226,12 @@
               <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
               <item name="public_html" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="lectures" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lectures" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="08" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
@@ -323,6 +349,9 @@
       <workItem from="1507650884292" duration="5349000" />
       <workItem from="1507664358317" duration="599000" />
       <workItem from="1507705158268" duration="8085000" />
+      <workItem from="1507732220760" duration="2562000" />
+      <workItem from="1507737183087" duration="3730000" />
+      <workItem from="1507748403785" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="lecture 07">
       <created>1505539778456</created>
@@ -370,7 +399,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221465000" />
+    <option name="totallyTimeSpent" value="228849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,6 +412,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="127" width="1370" height="745" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20863836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -451,7 +481,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lectures/11/img.php" />
     <entry file="file://$PROJECT_DIR$/lectures/11/img.html" />
     <entry file="file://$PROJECT_DIR$/08.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/08/08_array_scan_directory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12_file.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -716,15 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12_chat.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" column="31" lean-forward="false" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,13 +745,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lectures/12/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="1054">
           <caret line="62" column="41" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="41" />
           <folding />
         </state>
@@ -746,18 +758,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12_send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/08/08_array_scan_directory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/08/08_recursion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_chat.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/12_chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        <state relative-caret-position="491">
+          <caret line="71" column="112" lean-forward="false" selection-start-line="71" selection-start-column="112" selection-end-line="71" selection-end-column="112" />
           <folding>
             <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
