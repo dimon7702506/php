@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="39375b98-4dec-42f2-b846-9c196d76afc1" name="Default" comment="lecture 08">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12_chat.csv" afterPath="$PROJECT_DIR$/12_chat.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12_chat.html" afterPath="$PROJECT_DIR$/12_chat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12_send.php" afterPath="$PROJECT_DIR$/12_send.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="12_chat.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12_chat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12_chat.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="491">
@@ -33,11 +32,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lectures/12/form.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="41" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="41" />
+            <state relative-caret-position="306">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13_migration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13_migration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <marker date="1507795215876" expanded="true" signature="614:671" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:676" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:677" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:694" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:701" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:702" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:710" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:729" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:730" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:751" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:752" ph="insert into messages... " />
+                <marker date="1507795215876" expanded="true" signature="614:901" ph="insert into messages... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13_chat.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/13_chat.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="102" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -56,28 +88,8 @@
       <file leaf-file-name="12_send.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12_send.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="08_array_scan_directory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lectures/08/08_array_scan_directory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="08_recursion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lectures/08/08_recursion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="68">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -117,8 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/08_array_from_file_whith_recursion.php" />
-        <option value="$PROJECT_DIR$/08_array_scan_and_write_to_file.php" />
         <option value="$PROJECT_DIR$/lectures/09_login.html" />
         <option value="$PROJECT_DIR$/lectures/09_is_logged.php" />
         <option value="$PROJECT_DIR$/lectures/09_function.php" />
@@ -146,7 +156,6 @@
         <option value="$PROJECT_DIR$/lectures/11/img.php" />
         <option value="$PROJECT_DIR$/lectures/11/img.html" />
         <option value="$PROJECT_DIR$/08.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/11_task3.php" />
         <option value="$PROJECT_DIR$/lectures/10_pcre_examples1.php" />
         <option value="$PROJECT_DIR$/11_task4.php" />
@@ -165,9 +174,12 @@
         <option value="$PROJECT_DIR$/12.html" />
         <option value="$PROJECT_DIR$/lectures/12/form.html" />
         <option value="$PROJECT_DIR$/lectures.html" />
-        <option value="$PROJECT_DIR$/12_send.php" />
         <option value="$PROJECT_DIR$/12_chat.csv" />
         <option value="$PROJECT_DIR$/12_chat.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/12_send.php" />
+        <option value="$PROJECT_DIR$/13_migration.php" />
+        <option value="$PROJECT_DIR$/13_chat.sql" />
       </list>
     </option>
   </component>
@@ -351,7 +363,8 @@
       <workItem from="1507705158268" duration="8085000" />
       <workItem from="1507732220760" duration="2562000" />
       <workItem from="1507737183087" duration="3730000" />
-      <workItem from="1507748403785" duration="1092000" />
+      <workItem from="1507748403785" duration="1657000" />
+      <workItem from="1507792357934" duration="4298000" />
     </task>
     <task id="LOCAL-00001" summary="lecture 07">
       <created>1505539778456</created>
@@ -399,7 +412,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228849000" />
+    <option name="totallyTimeSpent" value="233712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,14 +494,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lectures/11/img.html" />
-    <entry file="file://$PROJECT_DIR$/08.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06_homework.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -670,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09_function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -756,22 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12_send.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/08/08_array_scan_directory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lectures/08/08_recursion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -797,6 +779,59 @@
             <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/08/08_array_scan_directory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_migration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <marker date="1507795215876" expanded="true" signature="614:671" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:676" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:677" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:694" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:701" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:702" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:710" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:729" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:730" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:751" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:752" ph="insert into messages... " />
+            <marker date="1507795215876" expanded="true" signature="614:901" ph="insert into messages... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_chat.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="102" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="102" />
+          <folding />
         </state>
       </provider>
     </entry>

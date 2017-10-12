@@ -1,0 +1,15 @@
+insert into messages (created, username, message) values ("2017-10-11 19:51:12","dimusya","hello");
+insert into messages (created, username, message) values ("2017-10-11 19:56:58","Valentina","Привет");
+insert into messages (created, username, message) values("17-10-11 19:51:12","dimusya","hello");
+insert into messages (created, username, message) values("17-10-11 19:56:58","Valentina","Привет");
+insert into messages (created, username, message) values("17-10-11 19:57:08","dimusya","Как дела?");
+insert into messages (created, username, message) values("17-10-11 19:57:21","Valentina","Скучаю");
+insert into messages (created, username, message) values("17-10-11 19:57:27","dimusya","зачем?");
+insert into messages (created, username, message) values("17-10-11 19:57:39","Valentina","Не зачем");
+insert into messages (created, username, message) values("17-10-11 19:57:45","dimusya","за кем?");
+insert into messages (created, username, message) values("17-10-11 19:57:58","Valentina","за любимым");
+insert into messages (created, username, message) values("17-10-11 19:58:07","dimusya","за любимым чем?");
+insert into messages (created, username, message) values("17-10-11 19:59:20","Dusya","Привет");
+insert into messages (created, username, message) values("17-10-11 19:59:31","dimusya","привет");
+insert into messages (created, username, message) values("17-10-11 22:04:09","jnknkj","jnkjnjknjkngffd");
+insert into messages (created, username, message) values("17-10-11 22:04:15","jnknkj","fdgdfgdfg");

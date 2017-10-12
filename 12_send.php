@@ -15,7 +15,7 @@ function write_to_file($user_name, $message):void
     fclose($file);
 }
 
-function read_messages($param_microtime):array
+function read_messages():array
 {
     $file = fopen(CHAT_FILE_NAME, 'r');
     $mes = [];
