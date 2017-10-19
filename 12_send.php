@@ -15,56 +15,34 @@ function write_to_file($user_name, $message):void
     fclose($file);
 }
 
-function read_messages():array
+function read_messages($param_microtime):array
 {
     $file = fopen(CHAT_FILE_NAME, 'r');
-    $mes = [];
-    $row = [];
+    $mes = [
+        'time' => '',
+        'user' => '',
+        'message' => ''
+    ];
+
     while ($row = fgetcsv($file)) {
-        array_push($mes, $row);
+        $row = fgetcsv($file);
+
+        $mes['time'] = $row[0];
+        $mes['user'] = $row[1];
+        $mes['message'] = $row[2];
+        //var_dump($row);
     }
     fclose($file);
-
-    $mes = array_reverse($mes);
-    $mes = array_slice($mes, 0, 50);
+    var_dump($mes);
+    echo count($mes);
 
     return $mes;
 }
 
 if ($_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest') {
+    $user = $_POST['UserName'] ?? '';
+    $msg = $_POST['Message'] ?? '';
     $param_microtime = $_POST['param_microtime'] ?? '';
-    if (isset($_POST['UserName']) && isset($_POST['Message']) && ($_POST['Message'] <> '')) {
-        $user = $_POST['UserName'] ?? '';
-        $msg = $_POST['Message'] ?? '';
-
-        write_to_file($user, $msg);
-    }
-    $arrays = read_messages($param_microtime);
-
-    $response = [
-        'success' => true,
-        'param_time' => '',
-        'messages' => [],
-    ];
-
-    $messages = [];
-    $temp_param_microtime = 0;
-
-    foreach ($arrays as $array) {
-        if ($temp_param_microtime == 0) {
-            $temp_param_microtime = $array[0];
-        }
-        $mes = [
-            'user' => $array[1],
-            'message' => $array[2],
-            'time' => date('d-m-y H:i:s', (float)$array[0])
-            ];
-        array_push($messages, $mes);
-    }
-    $response['param_time'] = $temp_param_microtime;
-    $response['messages'] = $messages;
-
-    header('Content-Type: application/json');
-    echo json_encode($response);
-    //print_r($messages[5]['user']);
+    write_to_file($user, $msg);
+    read_messages($param_microtime);
 }

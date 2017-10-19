@@ -2,7 +2,6 @@
 
 define('FILE_NAME','12_chat.csv');
 define('FILE_SQL_NAME','13_chat.sql');
-
 function read_file($file):array
 {
     $file_to_read = fopen($file, 'r');
@@ -12,10 +11,8 @@ function read_file($file):array
         array_push($mes, $row);
     }
     fclose($file_to_read);
-
     return $mes;
 }
-
 function make_sql_file($messages, $file):void
 {
     foreach ($messages as $message){
@@ -31,9 +28,6 @@ function make_sql_file($messages, $file):void
         fclose($file_sql);
     }
 }
-
 $file = FILE_NAME;
 $messages = read_file($file);
 make_sql_file($messages, FILE_SQL_NAME);
-
-

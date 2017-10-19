@@ -12,13 +12,14 @@
     <div class="form-group row">
         <label class="col-sm-2 col-form-label">User name</label>
         <div class="col-sm-10">
-            <input for="UserName" class="form-control" id="UserName" required name="UserName" maxlength="20" style="width: 120px">
+            <input for="UserName" class="form-control" id="UserName" required name="UserName">
         </div>
     </div>
     <div class="form-group row">
         <label class="col-sm-2 col-form-label">Message</label>
         <div class="col-sm-10">
-            <input for="Message" class="form-control" id="Message" required name="Message" maxlength="60">
+            <input for="Message" class="form-control" id="Message" required name="Message">
+            <input for="param_microtime" class="form-control" id="param_microtime" name="param_microtime" style="display: none">
         </div>
     </div>
     <button type="submit" class="btn btn-primary" style="margin-bottom: 10px" id="send">Send message</button>
@@ -29,30 +30,6 @@
     </div>
 </div>
 <script type="text/javascript">
-    var param_microtime;
-
-    setInterval(check_messages, 2000);
-
-    function check_messages() {
-        $.ajax({
-            url: '12_send.php',
-            type: 'post',
-            data: param_microtime,
-            success: function (response) {
-                var chat = $('#Chat');
-                //chat.html(response.param_time);
-                var text;
-                text = '';
-                for (var i = 0; i < response.messages.length; i++) {
-                    text = text + "[" + response.messages[i]['time']+"]   " +
-                        response.messages[i]['user'] + "    =>   " + response.messages[i]['message'] + "\n";
-                }
-                chat.html(text);
-                param_microtime = response.param_time;
-            }
-        })
-    }
-
     $(function () {
         var btn = $('#send');
         btn.click(function (e) {
@@ -63,23 +40,12 @@
                 type: 'post',
                 data: form_data,
                 success: function (response) {
-                    var chat = $('#Chat');
-                    //chat.html(response.param_time);
-                    var text;
-                    text = '';
-                    for (var i = 0; i < response.messages.length; i++) {
-                        text = text + "[" + response.messages[i]['time']+"]   " +
-                            response.messages[i]['user'] + "    =>   " + response.messages[i]['message'] + "\n";
-                    }
-                    chat.html(text);
-                },
-                error: function (response) {
-                    alert('Error !!!');
-                    console.log(response.param_time);
-                },
-                complete: function () {
                     var mas = document.getElementById('Message');
                     mas.value = '';
+
+                },
+                error: function (response) {
+                    alert('Error!!!');
                 }
             });
         });

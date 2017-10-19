@@ -1,6 +1,5 @@
 <?php
 
-
 function delete_dir($dir)
 {
     if(!file_exists($dir)){
