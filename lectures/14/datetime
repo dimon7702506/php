@@ -1,0 +1,6 @@
+Лучше использовать timestamp
+в php 4 времении:
+1.server time
+2.script time
+3.mysql session time
+4.mysql global time
